@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        html, body {
+    margin: 0;
+   width: 100;
+    height: 100%;
+}
+.conteneur {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+img {
+    display: block;
+}
+
+
+.image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    </style>
+</head>
+
+<body>
+
+    <div class="conteneur">
+
+        <img class="image1" src="sayorided23.jpeg">
+    </div>
+
+    <audio id="musique" loop>
+    <source src="2nd version Sayo-Nara (old).mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.addEventListener("click", function() {
+    const musique = document.getElementById("musique");
+    musique.play();
+}, { once: true });
+</script>
+<!--kiki-->
+</body>
+
+</html>

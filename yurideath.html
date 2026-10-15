@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        html, body {
+    margin: 0;
+   width: 100;
+    height: 100%;
+}
+.conteneur {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+img {
+    display: block;
+}
+
+
+.image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    </style>
+</head>
+
+<body>
+
+    <div class="conteneur">
+
+        <img class="image1" src="https://cf.preview.redd.it/has-anyone-else-wondered-why-this-exists-v0-zzlrvnaorg1d1.jpeg?width=640&crop=smart&auto=webp&s=86911f52b816b07f02eccf1fc621389b58c9696b">
+    </div>
+
+    <audio id="musique" loop>
+    <source src="Doki Doki Literature Club OST - My Confession (Variant).mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.addEventListener("click", function() {
+    const musique = document.getElementById("musique");
+    musique.play();
+}, { once: true });
+</script>
+<!--kiki-->
+</body>
+
+</html>
